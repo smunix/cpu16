@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "cpu16/src-lib"
+      component: "lib:cpu16"
+
+    - path: "cpu16/src-exe/Main.hs"
+      component: "cpu16:exe:cpu16"
+
+    - path: "cpu16/test"
+      component: "cpu16:test:cpu16-test"
